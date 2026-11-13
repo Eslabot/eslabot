@@ -12,12 +12,14 @@ Compare mercenaries, skills, relics and observed team builds, or plan your own s
 
 Eslabot is an unofficial Windows companion mod for **Eslabong**. It helps with repetitive training and equipment tasks, displays useful information, and compares battle results. This page provides English documentation; the launcher and in-game mod currently use Korean labels.
 
-## What's new in 1.0.47
+## What's new in 1.0.48
 
-- A redesigned launcher with a navy, mint and warm gold palette and rounded buttons.
-- A larger optional **Support development** action immediately below Play and Sync.
-- Clear sections for installation details, the guide website and execution help.
-- Existing game features, saves, settings and update behavior retained.
+- Choose features before starting the game. Disabled collectors, calculations and UI scanners are not instantiated; common save protection remains enabled.
+- The **Speed + Market only** preset keeps those two features. Existing in-game tool preferences remain separate from feature availability.
+- Optional **four relic slots** are available; the default remains the native two. This option changes equipment capacity, and extra slots require the native second-slot unlock.
+- Actual effects, presets, bilateral exchanges and battle records handle the extra slots. Opening the native inventory preserves their equipment state.
+- Switching back to two returns relics 3/4 to inventory and removes only their preset registrations. If inventory is full, four-slot state is retained with a notice. Save with F5 after switching.
+- Changes apply at the next game launch. Reducing work does not guarantee improved FPS on every PC or in every battle.
 
 ### Included changes from 1.0.46
 
