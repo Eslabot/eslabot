@@ -12,7 +12,14 @@ Compare mercenaries, skills, relics and observed team builds, or plan your own s
 
 Eslabot is an unofficial Windows companion mod for **Eslabong**. It helps with repetitive training and equipment tasks, displays useful information, and compares battle results. This page provides English documentation; the launcher and in-game mod currently use Korean labels.
 
-## What's new in 1.0.46
+## What's new in 1.0.47
+
+- A redesigned launcher with a navy, mint and warm gold palette and rounded buttons.
+- A larger optional **Support development** action immediately below Play and Sync.
+- Clear sections for installation details, the guide website and execution help.
+- Existing game features, saves, settings and update behavior retained.
+
+### Included changes from 1.0.46
 
 - Compatibility updates for Eslabong 0.92.2, Steam public build 26527807, including the new classes, relics and redesigned roster and market screens.
 - Battlefield zoom controls remain above the bottom HUD; outside-map gray padding is replaced with black padding.
