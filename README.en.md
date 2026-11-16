@@ -12,7 +12,16 @@ Compare mercenaries, skills, relics and observed team builds, or plan your own s
 
 Eslabot is an unofficial Windows companion mod for **Eslabong**. It helps with repetitive training and equipment tasks, displays useful information, and compares battle results. This page provides English documentation; the launcher and in-game mod currently use Korean labels.
 
-## What's new in 1.0.48
+## What's new in 1.0.49
+
+- Compatibility updates for **Eslabong 0.93.3, Steam public build 26671482**.
+- Checked changed growth, skills, relics, market, battle UI and save/reload contracts.
+- Restored the Tools menu entries for F5 save and F10 checkpoint load. Both remain available with optional features disabled.
+- Fixed the new roster's missing skill-icon fallback and adapted the Iron Gate bottom backdrop to its new texture-based layout.
+- F10 now suspends and finishes native asynchronous Home-screen refreshes before replacing the outgoing scene.
+- Feature selection, optional two/four relic slots, existing settings and saves retained.
+
+### Previous changes in 1.0.48
 
 - Choose features before starting the game. Disabled collectors, calculations and UI scanners are not instantiated; common save protection remains enabled.
 - The **Speed + Market only** preset keeps those two features. Existing in-game tool preferences remain separate from feature availability.
@@ -53,7 +62,7 @@ The website shows **observed adoption and submitted builds**, not measured win r
 Requirements: **Windows x64 and Eslabong installed through Steam**. The launcher includes its required .NET runtime; no development tools are needed.
 
 1. Start the unmodified game once and save a campaign, then close the game.
-2. Download **[EslabotLauncher-win-x64-1.0.46.zip](https://github.com/Eslabot/eslabot/releases/download/v1.0.46/EslabotLauncher-win-x64-1.0.46.zip)**. On the release page, expand **Assets** and choose this file.
+2. Download **[EslabotLauncher-win-x64-1.0.49.zip](https://github.com/Eslabot/eslabot/releases/download/v1.0.49/EslabotLauncher-win-x64-1.0.49.zip)**. On the release page, expand **Assets** and choose this file.
 3. Extract the **entire ZIP** into a local folder. Do not run it inside the ZIP, move only the EXE, or overwrite your Steam game folder.
 4. Run **에슬라봇 런처.exe** from the extracted folder. There is no installation wizard.
 5. Check the game path. Use **게임 위치** (Game location) if detection fails.
